@@ -1,25 +1,29 @@
 #u334 {
-	border-color: transparent;
-	background-color: #EAEAEA;
 	border-width: 0px;
+	background-color: #EAEAEA;
+	border-color: transparent;
 }
 .PamphletWidget .ThumbGroup .Thumb, .PamphletNextButton, .PamphletPrevButton, .PamphletCloseButton {
 	cursor: pointer;
 }
 #u520 {
-	border-color: transparent;
-	background-color: #FFFFFF;
 	border-width: 0px;
+	background-color: #FFFFFF;
+	border-color: transparent;
 }
 #u2952, #u112400 {
 	background-color: transparent;
 }
+#u119322 {
+	border-width: 0px;
+	background-color: transparent;
+}
 #u524-4 {
-	font-size: 17px;
-	color: #7F7F7F;
-	font-family: '__Carrois Gothic_5';
 	font-weight: 400;
+	color: #7F7F7F;
 	text-align: center;
+	font-size: 17px;
+	font-family: '__Carrois Gothic_5';
 	line-height: 20px;
 	background-color: transparent;
 }

@@ -79,10 +79,6 @@ body {
 	-webkit-font-feature-settings: 'liga';
 	font-feature-settings: 'liga';
 }
-a {
-	color: inherit;
-	text-decoration: inherit;
-}
 a:link {
 	color: #7F7F7F;
 	text-decoration: underline;
