@@ -1,14 +1,14 @@
-<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="http://smartcity.lsu.edu" resolutions="1x" timestamp="1533323866967">
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="http://smartcity.lsu.edu" resolutions="1x" timestamp="1533300940767">
   <folder name="css">
     <file name="site_global.css" crc="327730298"/>
-    <file name="master_a-master.css" crc="4075501424" ref="our-city---smart-safe-connected:research---smart-safe-connected:index"/>
-    <file name="nomq_preview_master_a-master.css" crc="3983419574" ref="our-city---smart-safe-connected:research---smart-safe-connected:index"/>
-    <file name="our-city---smart-safe-connected.css" crc="3810165399" ref="our-city---smart-safe-connected"/>
-    <file name="nomq_our-city---smart-safe-connected.css" crc="4121105831" ref="our-city---smart-safe-connected"/>
-    <file name="research---smart-safe-connected.css" crc="3910785348" ref="research---smart-safe-connected"/>
+    <file name="master_a-master.css" crc="511265707" ref="research---smart-safe-connected:index:our-city---smart-safe-connected"/>
+    <file name="nomq_preview_master_a-master.css" crc="3825422339" ref="research---smart-safe-connected:index:our-city---smart-safe-connected"/>
+    <file name="research---smart-safe-connected.css" crc="3905233804" ref="research---smart-safe-connected"/>
     <file name="nomq_research---smart-safe-connected.css" crc="353587801" ref="research---smart-safe-connected"/>
-    <file name="index.css" crc="20565486" ref="index"/>
+    <file name="index.css" crc="79393793" ref="index"/>
     <file name="nomq_index.css" crc="4024069376" ref="index"/>
+    <file name="our-city---smart-safe-connected.css" crc="480245646" ref="our-city---smart-safe-connected"/>
+    <file name="nomq_our-city---smart-safe-connected.css" crc="4121105831" ref="our-city---smart-safe-connected"/>
   </folder>
   <folder name="fonts">
     <file name="carroisgothic-regular-webfont.woff" crc="4139156405"/>
@@ -160,7 +160,7 @@
     <file name="pasted image 1500x2100-u93545-fr3.jpg" crc="451247148" ref="research---smart-safe-connected"/>
     <file name="robisonsamuel-u113075-fr2.jpg" crc="130715205" ref="research---smart-safe-connected"/>
   </folder>
-  <file name="index.html" crc="41585773" seo="true" mt="1533300814146" redirect="true"/>
-  <file name="our-city---smart-safe-connected.html" crc="3764126807" seo="true" mt="1533323785795" redirect="true"/>
-  <file name="research---smart-safe-connected.html" crc="118594428" seo="true" mt="1533300814146" redirect="true"/>
+  <file name="index.html" crc="257870774" seo="true" mt="1533300814146" redirect="true"/>
+  <file name="our-city---smart-safe-connected.html" crc="362668763" seo="true" mt="1533300814146" redirect="true"/>
+  <file name="research---smart-safe-connected.html" crc="488412744" seo="true" mt="1533300814146" redirect="true"/>
 </manifest>
