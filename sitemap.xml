@@ -6,13 +6,13 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
+      <image:loc>http://smartcity.lsu.edu/images/ssc_logo.png</image:loc>
+    </image:image>
+    <image:image>
       <image:loc>http://smartcity.lsu.edu/images/lsu_lastateuniv_horz_gry.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://smartcity.lsu.edu/images/lsu_comp_tech_horz_gry.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://smartcity.lsu.edu/images/ssc_logo.png</image:loc>
     </image:image>
   </url>
   <url>
@@ -21,13 +21,13 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
+      <image:loc>http://smartcity.lsu.edu/images/ssc_logo.png</image:loc>
+    </image:image>
+    <image:image>
       <image:loc>http://smartcity.lsu.edu/images/lsu_lastateuniv_horz_gry.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://smartcity.lsu.edu/images/lsu_comp_tech_horz_gry.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://smartcity.lsu.edu/images/ssc_logo.png</image:loc>
     </image:image>
   </url>
   <url>
@@ -36,13 +36,13 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
+      <image:loc>http://smartcity.lsu.edu/images/ssc_logo.png</image:loc>
+    </image:image>
+    <image:image>
       <image:loc>http://smartcity.lsu.edu/images/lsu_lastateuniv_horz_gry.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://smartcity.lsu.edu/images/lsu_comp_tech_horz_gry.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://smartcity.lsu.edu/images/ssc_logo.png</image:loc>
     </image:image>
   </url>
   <url>
