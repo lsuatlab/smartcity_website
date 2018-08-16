@@ -1,0 +1,421 @@
+/*if you need to make any style changes do it here 
+  this code should override the base bootstrap stuff*/
+
+/*custom background color*/
+body {background-color: #F3F3F3;}
+
+
+/*this code here enables hover functionality for dropdown menus */
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+
+/*Unsure of what this is for, it's from the initial code but the dropdown works so I don't want to remove it*/
+#dropdownMenuLink{
+}
+
+
+/*Custom font faces*/
+@font-face {
+	font-family: BebasKai;
+	src:url(../fonts/bebaskai-webfont.woff);
+}
+
+@font-face{
+	font-family: CarroisGothic;
+	src: url(../fonts/carroisgothic-regular-webfont.woff);
+}
+
+/*Removing the margins in bootstrap rows for cleaner design*/
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/*Used to remove padding in various areas, usually when it builds up from collumn nesting*/
+.noPad {
+  padding: 0 ! important;
+}
+
+.noMargin{
+	margin: 0;
+/*	Incase we want equal distance as the text: margin: 25px;*/
+}
+
+/*Used for the background gaps between sections*/
+.grayBox {
+  width: 100%;
+  height: 70px;
+}
+
+/*Used for adding a red background in various sections*/
+.redBox {
+	background-color: #993434;
+}
+
+/*Background for the different sections*/
+.whiteBox {
+	background-color: #FFFFFF;
+	box-shadow: 0px 1px 10px 1px rgba( 0, 0, 0, 0.15);
+}
+
+/* Redundant code that's commented out for now while I clean stuff up
+.redblock{
+	background-color: #993434;
+}
+*/
+/*For the text in banners and such across the site*/
+.bigtext {
+	font-size:42px;
+	font-family: BebasKai;
+ 	color: #7F7F7F;
+}
+
+/*For the text in red banners*/
+.bigtextwhite{
+	color:white;
+}
+
+/*For the text in descriptions and such*/
+.smallertext {
+	font-size:19px;
+	font-family: CarroisGothic;
+ 	color: #7F7F7F;
+	line-height: 1.6;
+}
+
+/*Faculty Text Names*/
+.facultyName{
+	font-family: CarroisGothic; 
+	color:darkred; 
+	font-size: 1.7rem;
+}
+
+/*Faculty Description- a lil smaller then largertext, the mobile one is the same cus it looks better there*/
+.facultyDesc{
+/*	1.1 rem old size*/
+	font-size: 18px;
+	font-family: CarroisGothic;
+ 	color: #808080;
+}
+
+
+
+/*stylings for the input sections on the formspree section*/
+.formspree_input {
+	color: #7F7F7F;
+	border-width: 1px;
+	min-height: 42px;
+	font-family: CarroisGothic;
+	background-color: #FFFFFF;
+	font-size: 19px;
+	border-color: #993434;
+	border-style: solid;
+	border-radius: 3px;
+	line-height: 37px;
+	padding-left: 1%;
+}
+
+/*Current page highlight */
+a.navLink.current{
+		text-decoration: none;
+		background: -webkit-gradient(linear, center top, center bottom, from(#993434), color-stop(100%, #751616));
+		color: white;
+} 
+
+
+/*Styling for the buttons/link buttons in the body of the page*/
+.pagebutton {
+	color: #7F7F7F;
+	border-width: 1px;
+	font-family: CarroisGothic;
+	z-index: 66;
+	background-color: #FFFFFF;
+	font-size: 19px;
+	border-color: #993434;
+	border-style: solid;
+	border-radius: 3px;
+	font-weight: 400;
+	line-height: 35px;
+	font-color: #993434;
+	text-align:center;
+
+}
+.pagebutton:hover {
+	background: -webkit-gradient(linear, center top, center bottom, from(#993434), color-stop(100%, #751616));
+	background: -webkit-linear-gradient(top, #993434, #751616 100%);
+	background: linear-gradient(to bottom, #993434, #751616 100%);
+	text-decoration: none;
+	color: white;
+}
+.pagebutton.ButtonSelected {
+	background: -webkit-gradient(linear, center top, center bottom, from(#993434), color-stop(100%, #751616));
+	background: -webkit-linear-gradient(top, #993434, #751616 100%);
+	background: linear-gradient(to bottom, #993434, #751616 100%);
+
+	color: white;
+
+}
+
+
+/*Styling for the About Us banner*/
+.bannerImg{
+		background: url(../../images/misc/pano.jpg);
+		height: 60vh;
+	    /* Center and scale the image nicely */
+		background-position: center;
+		background-size: cover;
+	    background-repeat: no-repeat;
+	
+}
+/*Styling for the Safety map banner*/
+.crimebannerImg{
+		background: url(../../images/vis/crimeMapRed.jpg);
+		height: 60vh;
+	    /* Center and scale the image nicely */
+		background-position: center;
+		background-size: cover;
+	    background-repeat: no-repeat;
+}
+
+/*Styling for the Traffic banner*/
+.trafficbannerImg{
+	background: url(../../images/vis/carsWithNames.png);
+			height: 60vh;
+	    /* Center and scale the image nicely */
+		background-position: center;
+		background-size: cover;
+	    background-repeat: no-repeat;
+}
+
+/*Styling for the Flood poster banner*/
+.posterbannerImg{
+	background: url(../../images/vis/PosterCrop.png);
+			height: 60vh;
+	    /* Center and scale the image nicely */
+		background-position: center;
+		background-size: cover;
+	    background-repeat: no-repeat;
+}
+
+/*Styling for the Our City banner*/
+.ourcitybannerImg{
+	background: url(../../images/misc/aerialBR.jpg);
+			height: 60vh;
+	    /* Center and scale the image nicely */
+		background-position: center;
+		background-size: cover;
+	    background-repeat: no-repeat;
+}
+
+/*Styling for the  Research banner*/
+.researchbannerImg{
+	background:url(../../images/misc/smartcity_image_texture-01.png);
+			height: 60vh;
+	    /* Center and scale the image nicely */
+		background-position: center;
+		background-size: cover;
+	    background-repeat: no-repeat;
+}
+
+
+
+/* Old redundent code, leaving as backup until confirmed unused
+.button-style{
+	color: #7F7F7F;
+	border-width: 1px;
+	font-family: CarroisGothic;
+	z-index: 66;
+	background-color: #FFFFFF;
+	font-size: 19px;
+	border-color: #993434;
+	border-style: solid;
+	border-radius: 3px;
+	font-color: #993434;
+}
+*/
+
+
+
+
+
+/*  Dropdown Items-text Cust */ 
+.dropdown-item_cust {
+  display: block;
+  width: 100%;
+  clear: both;
+  font-weight: 400;
+  color:#7F7F7F;
+  background: white;
+  border: 0;
+  font-size: 22px;
+  font-family: BebasKai;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.dropdown-item_cust:link {
+	color: #7F7F7F;
+}
+
+.dropdown-item_cust:hover, .dropdown-item_cust:focus {
+  color: white;
+  text-decoration: none;
+  background-color: linear-gradient(#7F7F7F, #545454);
+  background: -webkit-gradient(linear, center top, center bottom, from(#7F7F7F), color-stop(100%, #545454)); 
+}
+
+.dropdown-item_cust.active, .dropdown-item_cust:active {
+  color: white;
+  text-decoration: none;
+  background: -webkit-gradient(linear, center top, center bottom, from(#993434), color-stop(100%, #751616));
+/*  background-color: linear-gradient(#7F7F7F, #545454);*/
+}
+
+
+.dropdown-nopadborder{
+	border-radius: 0rem;
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+
+/*Styling for the MOBILE dropdown menu container that holds the buttons*/
+.dropdown-custom{
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: auto;
+  z-index: 1000;
+  display: none;
+  float: right;
+}
+
+
+/*For the burger button when the header collapses in mobile*/
+.burger-cust {
+	background: -webkit-gradient(linear, center top, center bottom, from(#993434), color-stop(100%, #751616));
+	border-radius: 0;
+}
+
+/*When selected, change to grey*/
+.burger-cust:focus {
+  background: linear-gradient(#7F7F7F, #545454);
+}
+
+/*For the header buttons to Different pages in the  (About us, etc) navbar*/
+.Headerbutton-cust {
+		background: #EAEAEA;
+		color:#7F7F7F;
+		border-radius: 0;
+		font-size: 22px;
+		font-family: BebasKai;
+		display: block;
+		padding: 1.0rem;
+}
+
+.Headerbutton-cust:hover {
+		text-decoration: none;
+		background: -webkit-gradient(linear, center top, center bottom, from(#993434), color-stop(100%, #751616));
+		color: white;
+}
+
+.Headerbutton-cust:active {
+		background: #7F7F7F;
+		color: white;
+}
+
+/*Styling for MOBILE dropdown menu: the large page buttons (about us, etc)*/
+.dropdownButton {
+		background: linear-gradient(to bottom, #7F7F7F, #707070 100%);
+		color: white;
+		font-size: 16px;
+		font-family: BebasKai;
+		
+}
+.dropdownButton:hover {
+		background: -webkit-gradient(linear, center top, center bottom, from(#993434), color-stop(100%, #751616));
+		color: white;
+		text-decoration: none;
+}
+.dropdownButton:active {
+		background: -webkit-gradient(linear, center top, center bottom, from(#993434), color-stop(100%, #751616));
+		color: white;
+}
+
+/*For the subsections on the MOBILE dropdown menu*/
+.dropdownButtonsub {
+		background: #EAEAEA;
+		color:#7F7F7F;
+		border-radius: 0;
+		font-size: 16px;
+		font-family: BebasKai;
+		display: block;
+		padding: 0.45rem;
+}
+
+.dropdownButtonsub:hover {
+		text-decoration: none;
+		background: -webkit-gradient(linear, center top, center bottom, from(#993434), color-stop(100%, #751616));
+		color: white;
+}
+
+.dropdownButtonsub:active {
+		background: #7F7F7F;
+		color: white;
+}
+
+/*CSS to make the top navbar stick*/
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* CSS to make anchor point divs invisible and offset them for the navbar's height*/
+.anchorpoint{
+	display: block;
+    position: relative;
+    top: -65px;
+    visibility: hidden;
+	
+}
+
+/*Adjusting font and anchor points for breakpoints, to make text smaller and adjust for different navbar size*/
+@media screen and (max-width: 768px)
+/*	Applies these changes when the page is below 768 px*/
+{
+	.anchorpoint{
+	display: block;
+    position: relative;
+    top: -71px;
+    visibility: hidden;
+	}
+	
+	.smallertext {
+	font-size:17px;
+	font-family: CarroisGothic;
+ 	color: #7F7F7F;
+	line-height: 1.5;	
+	}
+	
+	.bigtext {
+	font-size:32px;
+	font-family: BebasKai;
+	padding-top: 0.4rem;
+	}
+	
+	.facultyName{
+	font-family: CarroisGothic; 
+	color:#993434; 
+	font-size: 1.5rem;
+	}
+/* Unusued, didn't look as good but keeping incase*/
+	.facultyDesc{
+	font-size:1.0rem;
+	font-family: CarroisGothic;
+ 	color: #808080;
+	}
+
+}

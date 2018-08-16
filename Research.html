@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Smart City - Research</title>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<!--CSS stuff here -->
+
+		<link rel="stylesheet" href="tools/styleSheets/bootstrap/bootstrap.css">
+		<link rel="stylesheet" href="tools/styleSheets/customCss.css">
+  	<!-- scripts -->
+
+	</head>
+	<body>
+		<div class="container-fluid noPad">
+<!--			Navbar-->
+			<div class="row fixed-top" style="background-color: #EAEAEA;">
+			  <div class="col-12 noPad">
+				  <nav class="navbar navbar-expand-md navbar-light noPad" style="padding-top: 0; padding-bottom: 0; height: 100%;">
+				  	<!-- big logo -->
+				    <a class="navbar-brand d-none d-sm-block col-3 noPad" href="index.html">
+				      <img src="images/logos/logoWithText.png" class="navbar-brand mr-auto" height="65" style="padding-left: 10px;" href="index.html" alt="Red minimalist cityscape with text Smart Safe Connected Baton Rouge following. Serves as logo of site">
+				    </a>
+				    <!-- mobile logo -->
+				    <a class="navbar-brand d-block d-sm-none col-3 noPad" href="index.html">
+				      <img src="images/logos/logoWithText.png" class="navbar-brand mr-auto" height="71" href="index.html" alt="Red minimalist cityscape with text Smart Safe Connected Baton Rouge following. Serves as logo of site">
+				    </a>
+					<!--Mobile navbar burger button-->
+					<button class="navbar-toggler burger-cust col-2" type="button" data-toggle="collapse" data-target="#NavBurger" aria-controls="NavBurger" aria-expanded="false" aria-label="Toggle navigation bar" style="height: 100%;">
+         				<span class="navbar-toggler-icon"></span>
+         			</button>
+					  
+				    <div class="d-none d-lg-block collapse navbar-collapse col-9 row" id="navbarNavAltMarkup" style="height: 100%; padding:0;">
+				      <div class=" navbar-nav ml-auto col-8" style="height: 100%;">
+				        <div class="nav-item dropdown col-4 noPad row">
+				          <a class="Headerbutton-cust text-center col-12 navLink" href="index.html#AboutBanner" id="dropdownMenuLink" aria-haspopup="true" aria-expanded="false" style="height: 100%;">
+				            About Us
+				            <!-- add this line in for the active element for text-only broswers -->
+				            <span class="sr-only">(current)</span>
+				          </a>
+				          <div class="dropdown-menu dropdown-menu-right dropdown-nopadborder py-0 col-12" aria-labelledby="dropdownMenuLink">
+				            <a class="dropdown-item_cust navLink" href="index.html#AboutEvents">
+								Events
+							  <!-- add this line in for the active element for text-only broswers -->
+				            <span class="sr-only">(current)</span></a>
+				            <a class="dropdown-item_cust navLink" href="index.html#AboutContact">
+								Contact Us
+							 	<!-- add this line in for the active element for text-only broswers -->
+				            	<span class="sr-only">(current)</span>
+							</a>
+				          </div>
+				        </div>
+
+				        <div class="nav-item dropdown col-4 noPad">
+				          <a class="Headerbutton-cust text-center navLink" href="OurCity.html#CityBanner" aria-haspopup="true" aria-expanded="false" style="height: 100%;">
+				            Our City
+							<!-- add this line in for the active element for text-only broswers -->
+				            <span class="sr-only">(current)</span>
+				          </a>
+				          <div class="dropdown-menu dropdown-menu-right dropdown-nopadborder py-0 col-12" aria-labelledby="dropdownMenuLink">
+				            <a class="dropdown-item_cust navLink" href="OurCity.html#CityMap">
+								Crime Map Visualization
+								<!-- add this line in for the active element for text-only broswers -->
+				            	<span class="sr-only">(current)</span>
+							</a>
+				            <a class="dropdown-item_cust navLink" href="OurCity.html#CityTraffic">
+								Traffic Visualization
+								<!-- add this line in for the active element for text-only broswers -->
+				            	<span class="sr-only">(current)</span>
+							</a>
+							<a class="dropdown-item_cust navLink" href="OurCity.html#CityPoster">
+								Community Visualization
+								<!-- add this line in for the active element for text-only broswers -->
+				       		    <span class="sr-only">(current)</span>
+							</a>
+				          </div>
+				        </div>
+
+				        <div class="nav-item dropdown col-4 noPad">
+				          <a class="Headerbutton-cust text-center navLink" href="Research.html#RsBanner" aria-haspopup="true" aria-expanded="false" style="height: 100%;">
+				            Research
+				            <!-- add this line in for the active element for text-only broswers -->
+				            <span class="sr-only">(current)</span>
+				          </a>
+				          <div class="dropdown-menu dropdown-menu-right dropdown-nopadborder py-0 col-12" aria-labelledby="dropdownMenuLink">
+				            <a class="dropdown-item_cust navLink" href="Research.html#RsData">
+								Big Data + Deep Learning
+								<!-- add this line in for the active element for text-only broswers -->
+					            <span class="sr-only">(current)</span>
+							</a>
+				            <a class="dropdown-item_cust navLink" href="Research.html#RsComm">
+								Community Engagement
+								<!-- add this line in for the active element for text-only broswers -->
+					            <span class="sr-only">(current)</span>
+							</a>
+				            <a class="dropdown-item_cust navLink" href="Research.html#RsSocial">
+								Social Science
+								<!-- add this line in for the active element for text-only broswers -->
+					            <span class="sr-only">(current)</span>
+							</a>
+				            <a class="dropdown-item_cust navLink" href="Research.html#RsSub">
+								Data Submission
+								<!-- add this line in for the active element for text-only broswers -->
+				            	<span class="sr-only">(current)</span>							
+							</a>
+				          </div>
+				        </div>
+				      </div>
+				    </div>
+				  </nav>
+					
+				  
+<!--					Holder for burger dropdown-->
+				  
+				  
+				<div class="row col-8 offset-4 noPad no-gutters collapse dropdown-custom" style="background-color: grey;" id="NavBurger" aria-expanded="false"  aria-labelledby="">
+  				<!-- Link Section -->
+                  
+                  <a class="nav-link example text-center col-12 dropdownButton navLink" href="index.html#AboutBanner">
+                    About Us
+                    <!-- add this line in for the active element for text-only broswers -->
+                    <span class="sr-only">(current)</span>
+                  </a>
+                  
+                  <a class="nav-link example text-center col-12 dropdownButtonsub navLink" href="index.html#AboutEvents">
+                    Events
+                    <!-- add this line in for the active element for text-only broswers -->
+                    <span class="sr-only">(current)</span>
+                  </a>
+                  
+                  <a class="nav-link example text-center col-12 dropdownButtonsub navLink" href="index.html#AboutContact">
+                    Contact Us
+                    <!-- add this line in for the active element for text-only broswers -->
+                    <span class="sr-only">(current)</span>
+                  </a>
+  <!--			Our city section-->
+                  <a class="nav-link example text-center col-12 dropdownButton navLink" href="OurCity.html#CityBanner">
+                  Our City
+                  <!-- add this line in for the active element for text-only broswers -->
+                  <span class="sr-only">(current)</span>
+                  </a>
+                  
+                  <a class="nav-link example text-center col-12 dropdownButtonsub navLink" href="OurCity.html#CityMap">
+                    Crime Map Visualization
+                    <!-- add this line in for the active element for text-only broswers -->
+                    <span class="sr-only">(current)</span>
+                  </a>
+                  
+                  <a class="nav-link example text-center col-12 dropdownButtonsub navLink" href="OurCity.html#CityTraffic">
+                    Traffic Visualization
+                    <!-- add this line in for the active element for text-only broswers -->
+                    <span class="sr-only">(current)</span>
+                  </a>
+                  <a class="nav-link example text-center col-12 dropdownButtonsub navLink" href="OurCity.html#CityPoster">
+                    Community Visualization
+                    <!-- add this line in for the active element for text-only broswers -->
+                    <span class="sr-only">(current)</span>
+                  </a>
+  <!--			Research section-->
+                  <a class="nav-link example text-center col-12 dropdownButton navLink" href="Research.html#RsBanner">
+                  Research
+                  <!-- add this line in for the active element for text-only broswers -->
+                  <span class="sr-only">(current)</span>
+                  </a>
+                  
+                  <a class="nav-link example text-center col-12 dropdownButtonsub navLink" href="Research.html#RsData">
+                    Big Data + Deep Learning
+                    <!-- add this line in for the active element for text-only broswers -->
+                    <span class="sr-only">(current)</span>
+                  </a>
+                  
+                  <a class="nav-link example text-center col-12 dropdownButtonsub navLink" href="Research.html#RsComm">
+                    Community Engagement
+                    <!-- add this line in for the active element for text-only broswers -->
+                    <span class="sr-only">(current)</span>
+                  </a>
+                  <a class="nav-link example text-center col-12 dropdownButtonsub navLink" href="Research.html#RsSocial">
+                    Social Science
+                    <!-- add this line in for the active element for text-only broswers -->
+                    <span class="sr-only">(current)</span>
+                  </a>
+                  
+                  <a class="nav-link example text-center col-12 dropdownButtonsub navLink" href="Research.html#RsSub">
+                    Data Submission
+                    <!-- add this line in for the active element for text-only broswers -->
+                    <span class="sr-only">(current)</span>
+                  </a>
+                </div>
+<!--					here-->
+			  </div>
+			</div>
+<!--		End Navbar-->
+			<!-- Banner -->
+			<div class="row">
+				<div class="col-12 noPad researchbannerImg" id="RsBanner" title="A graphic showing with the Smart Safe Connected Baton Rouge logo." style="width: 100%;">
+				</div>
+			</div>
+			<!--Banner Desc-->
+			<div class="row whiteBox">
+			<div class="col-10 offset-1  noPad">
+				<div class="row">
+					<div class="col-12">
+					  <h1 class="bigtext text-center" style="padding-top: 1%;" name="About">Research </h1>
+					</div>
+	 			</div>
+
+				<div class="row" style="padding-top: 25px; padding-bottom: 25px;">
+					<div class = "col-12  noPad">
+		        		<p class="smallertext text-justify">        		
+						The multidisciplinary research team spanning Computer Science, Electrical and Computer Engineering, Social Sciences, and Art & Design  is developing new cyberinfrastructure for the Smart and Connected Community research project addressing public safety and transportation issues.
+		        		</p>
+		        	</div>
+		      	</div>
+			</div>
+		  </div>
+			<!-- grey divider -->
+			<div class="row">
+					<div class="col-12 noPad">
+						<div class="grayBox"></div>
+					</div>
+			  </div>
+			<a class="anchorpoint" id="RsData"></a>		
+			<div class="whiteBox row" style="padding-bottom: 5px;">
+				  <div class="col-12 textpadding row noPad no-gutters">
+					  <h1 class="bigtext text-center redBox bigtextwhite col-12 noPad" id="AboutEvents">Big Data + Deep Learning</h1>
+					</div>	
+				  <div class="row" style="padding-bottom: 25px; padding-top: 25px;">
+						<div class = "col-10 offset-1  noPad">
+							<p class="smallertext text-justify">
+									Administering and deploying clusters and managing database systems for developing deep learning algorithms. This project aims to develop a real time video streaming monitoring service, and the developmental prototype built with Deep Learning techniques is shown below using the data from a Baton Rouge traffic camera from DOTD.
+							</p>
+						</div>
+					</div>
+
+				  <!-- Row -->
+				  <div class="row col-12 no-gutters" style="padding-bottom: 25px;"> 
+					<div class="d-block col-md-10 offset-md-1 col-lg-6 offset-lg-0">
+						<div class="row" style="padding-bottom: 25px;">
+							<div class="col-3 no-gutters d-block offset-1 noPad">
+								<img src="images/people/sjpark2.jpg" class="col-12" alt="Seung-Jong Jay Park"  style=" box-shadow: 0px 1px 10px 1px rgba( 0, 0, 0, 0.25);">
+							</div>
+
+							<div class="col-6 d-block offset-1">
+								<h3 class="text-center facultyName">Seung-Jong Jay Park</h3>
+								<ul class="list-unstyled facultyDesc" style="font-family: CarroisGothic; color:#808080;">
+								<p class="text-center" style="font-family: CarroisGothic; color:#808080;">Computer Science</p>
+								<li class="text-center">sjpark@csc.lsu.edu</li>
+								<li class="text-center">225-578-5411</li>
+								<li class="text-center"><a href="http://www.csc.lsu.edu/~sjpark/index.html" style="color: #7F7F7F; text-decoration: underline;" target="_blank">Faculty Page</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>	
+					<div class="d-block col-md-10 offset-md-1 col-lg-6 offset-lg-0">
+						<div class="row">
+							<div class="col-3 no-gutters d-block offset-1 noPad">
+								<img src="images/people/kisunglee2.jpg" class="col-12" alt="Kisung Lee" style=" box-shadow: 0px 1px 10px 1px rgba( 0, 0, 0, 0.25);">
+							</div>
+
+							<div class="col-6 d-block offset-1">
+								<h3 class="text-center facultyName">Kisung Lee</h3>
+								<ul class="list-unstyled facultyDesc" style="font-family: CarroisGothic; color:#808080;">
+								<p class="text-center" style="font-family: CarroisGothic; color:#808080;">Computer Science</p>
+								<li class="text-center">lee@csc.lsu.edu</li>
+								<li class="text-center">225-578-2876</li>
+								<li class="text-center"><a href="https://www.lsu.edu/eng/cse/people/faculty/lee.k.php" style="color: #7F7F7F; text-decoration: underline;" target="_blank">Faculty Page</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>	
+			</div> <!--End Individual row-->
+				  <!-- Row -->
+				  <div class="row col-12 no-gutters" style="padding-bottom: 25px;">
+					<div class="d-block col-md-10 offset-md-1 col-lg-6 offset-lg-0">
+						<div class="row" style="padding-bottom: 25px;">
+							<div class="col-3 no-gutters d-block offset-1 noPad">
+								<img src="images/people/jxr2.jpg" class="col-12" alt="J. (Ram) Ramanujam" style=" box-shadow: 0px 1px 10px 1px rgba( 0, 0, 0, 0.25);">
+							</div>
+
+							<div class="col-6 d-block offset-1">
+								<h3 class="text-center facultyName">J. (Ram) Ramanujam</h3>
+								<ul class="list-unstyled facultyDesc" style="font-family: CarroisGothic; color:#808080;">
+								<p class="text-center" style="font-family: CarroisGothic; color:#808080;">Center for Computation and Technology</p>
+								<li class="text-center">jxr@ece.lsu.edu</li>
+								<li class="text-center">225-578-7877</li>
+								<li class="text-center"><a href="http://www.ece.lsu.edu/jxr/" style="color: #7F7F7F; text-decoration: underline;" target="_blank">Faculty Page</a></li>
+
+								</ul>
+							</div>
+						</div>
+					</div>	
+					<div class="d-block col-md-10 offset-md-1 col-lg-6 offset-lg-0">
+						<div class="row">
+							<div class="col-3 no-gutters d-block offset-1 noPad">
+								<img src="images/people/JianZhang2.jpg" class="col-12" alt="Jian Zhang" style=" box-shadow: 0px 1px 10px 1px rgba( 0, 0, 0, 0.25);">
+							</div>
+
+							<div class="col-6 d-block offset-1">
+								<h3 class="text-center facultyName">Jian Zhang</h3>
+								<ul class="list-unstyled facultyDesc" style="font-family: CarroisGothic; color:#808080;">
+								<p class="text-center" style="font-family: CarroisGothic; color:#808080;">Computer Science</p>
+								<li class="text-center">zhang@csc.lsu.edu</li>
+								<li class="text-center">225-578-8353</li>
+								<li class="text-center"><a href="https://www.lsu.edu/eng/cse/people/faculty/zhang.php" style="color: #7F7F7F; text-decoration: underline;" target="_blank">Faculty Page</a></li>
+
+								</ul>
+							</div>
+						</div>
+					</div>	
+			</div> <!--End Individual row-->
+				  <!-- Row -->
+				  <div class="row col-12 no-gutters" style="padding-bottom: 25px;">
+					<div class="d-block col-md-10 offset-md-1 col-lg-6 offset-lg-0">
+						<div class="row" style="padding-bottom: 25px;">
+							<div class="col-3 no-gutters d-block offset-1 noPad">
+								<img src="images/people/yang2.jpg" class="col-12" alt="Seungwon Yang" style=" box-shadow: 0px 1px 10px 1px rgba( 0, 0, 0, 0.25);">
+							</div>
+
+							<div class="col-6 d-block offset-1">
+								<h3 class="text-center facultyName">Seungwon Yang</h3>
+								<ul class="list-unstyled facultyDesc" style="font-family: CarroisGothic; color:#808080;">
+								<p class="text-center" style="font-family: CarroisGothic; color:#808080;">School of Library and Information Sciences
+		and Center for Computation & Technology</p>
+								<li class="text-center">seungwonyang@lsu.edu</li>
+								<li class="text-center">225-578-7411</li>
+								<li class="text-center"><a href="https://www.lsu.edu/chse/slis/about_us/bios/yang.php" style="color: #7F7F7F; text-decoration: underline;" target="_blank">Faculty Page</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>	
+					<div class="d-block col-md-10 offset-md-1 col-lg-6 offset-lg-0">
+						<div class="row">
+							<div class="col-3 no-gutters d-block offset-1 noPad">
+								<img src="images/people/Shayan2.jpg" class="col-12" alt="Shayan Shams" style=" box-shadow: 0px 1px 10px 1px rgba( 0, 0, 0, 0.25);">
+							</div>
+
+							<div class="col-6 d-block offset-1">
+								<h3 class="text-center facultyName">Shayan Shams</h3>
+								<ul class="list-unstyled facultyDesc" style="font-family: CarroisGothic; color:#808080;">
+								<p class="text-center" style="font-family: CarroisGothic; color:#808080;">Computer Science</p>
+								</ul>
+							</div>
+						</div>
+					</div>	
+				</div> <!--End Individual row-->
+				  <!-- Row -->
+				  <div class="row col-12 no-gutters" style="padding-bottom: 25px;">
+					<div class="d-block col-md-10 offset-md-1 col-lg-6 offset-lg-0">
+						<div class="row" style="padding-bottom: 25px;">
+							<div class="col-3 no-gutters d-block offset-1 noPad">
+								<img src="images/people/dipak2.jpg" class="col-12" alt="Dipak Kumar Singh" style=" box-shadow: 0px 1px 10px 1px rgba( 0, 0, 0, 0.25);">
+							</div>
+
+							<div class="col-6 d-block offset-1">
+								<h3 class="text-center facultyName">Dipak Kumar Singh</h3>
+								<ul class="list-unstyled facultyDesc" style="font-family: CarroisGothic; color:#808080;">
+								<p class="text-center" style="font-family: CarroisGothic; color:#808080;">Computer Science</p>
+								</ul>
+							</div>
+						</div>
+					</div>	
+
+				</div> <!--End Individual row-->
+
+
+			  </div>
+			<!-- grey divider -->
+			<div class="row">
+					<div class="col-12 noPad">
+						<div class="grayBox"></div>
+					</div>
+				</div>
+			<a class="anchorpoint" id="RsComm"></a>		
+			<div class="whiteBox row">
+				<div class="col-12 textpadding row noPad no-gutters">
+				  <h1 class="bigtext text-center redBox bigtextwhite col-12 noPad">Community Engagement</h1>
+				</div>	
+				<div class="row"  style="padding-bottom: 25px; padding-top: 25px;">
+						<div class = "col-10 offset-1  noPad">
+							<p class="smallertext text-justify">
+								Developing public installations and visualizations as well as displaying outcomes for outreach and community engagement. Community Engagement projects include managing setup for the Smart Safe Connected event, including designing the various installations included.
+							</p>
+						</div>
+					  </div>
+				<!-- Row -->
+				<div class="row col-12 no-gutters" style="padding-bottom: 25px;"> 
+						<div class="d-block col-md-10 offset-md-1 col-lg-6 offset-lg-0">
+							<div class="row" style="padding-bottom: 25px;">
+								<div class="col-3 no-gutters d-block offset-1 noPad">
+									<img src="images/people/profDerrick2.jpg" class="col-12" alt="Derick Ostrenko" style=" box-shadow: 0px 1px 10px 1px rgba( 0, 0, 0, 0.25);">
+								</div>
+
+								<div class="col-6 d-block offset-1">
+									<h3 class="text-center facultyName">Derick Ostrenko</h3>
+									<ul class="list-unstyled facultyDesc" style="font-family: CarroisGothic; color:#808080;">
+									<p class="text-center" style="font-family: CarroisGothic; color:#808080;">Art & Design</p>
+									<li class="text-center">dostrenko@lsu.edu</li>
+									<li class="text-center">225-578-5411</li>
+									<li class="text-center"><a href="http://design.lsu.edu/faculty/ostrenko-derick/" style="color: #7F7F7F; text-decoration: underline;" target="_blank">Faculty Page</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>	
+						<div class="d-block col-md-10 offset-md-1 col-lg-6 offset-lg-0">
+							<div class="row" style="padding-bottom: 25px;">
+								<div class="col-3 no-gutters d-block offset-1 noPad">
+									<img src="images/people/profNam2.jpg" class="col-12" alt="Hye Yeon Nam" style=" box-shadow: 0px 1px 10px 1px rgba( 0, 0, 0, 0.25);">
+								</div>
+								<div class="col-6 d-block offset-1">
+									<h3 class="text-center facultyName">Hye Yeon Nam</h3>
+									<ul class="list-unstyled facultyDesc" style="font-family: CarroisGothic; color:#808080;">
+									<p class="text-center" style="font-family: CarroisGothic; color:#808080;">Art & Design</p>
+									<li class="text-center">hyenam@lsu.edu</li>
+									<li class="text-center">225-578-5411</li>
+									<li class="text-center"><a href="http://design.lsu.edu/faculty/nam-hye-yeon/" style="color: #7F7F7F; text-decoration: underline;" target="_blank">Faculty Page</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>	
+				</div> <!--End Individual row-->
+				<!-- Row -->	
+				<div class="row col-12 no-gutters" style="padding-bottom: 25px;"> 
+						<div class="d-block col-md-10 offset-md-1 col-lg-6 offset-lg-0">
+							<div class="row" style="padding-bottom: 25px;">
+								<div class="col-3 no-gutters d-block offset-1 noPad">
+									<img src="images/people/profKim2.jpg" class="col-12" alt="Nayong Kim" style=" box-shadow: 0px 1px 10px 1px rgba( 0, 0, 0, 0.25);">
+								</div>
+
+								<div class="col-6 d-block offset-1">
+									<h3 class="text-center facultyName">Nayong Kim</h3>
+									<ul class="list-unstyled facultyDesc" style="font-family: CarroisGothic; color:#808080;">
+									<p class="text-center" style="font-family: CarroisGothic; color:#808080;">Center for Computation & Technology</p>
+									<li class="text-center">nykim@cct.lsu.edu</li>
+									<li class="text-center">225-578-5486</li>
+									<li class="text-center"><a href="https://www.cct.lsu.edu/about/staff" style="color: #7F7F7F; text-decoration: underline;" target="_blank">Faculty Page</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>	
+						<div class="d-block col-md-10 offset-md-1 col-lg-6 offset-lg-0">
+							<div class="row" style="padding-bottom: 25px;">
+								<div class="col-3 no-gutters d-block offset-1 noPad">
+									<img src="images/people/philips2.jpg" class="col-12" alt="Casey Philips" style=" box-shadow: 0px 1px 10px 1px rgba( 0, 0, 0, 0.25);">
+								</div>
+
+								<div class="col-6 d-block offset-1">
+									<h3 class="text-center facultyName">Casey Philips</h3>
+									<ul class="list-unstyled facultyDesc" style="font-family: CarroisGothic; color:#808080;">
+									<p class="text-center" style="font-family: CarroisGothic; color:#808080;">Walls Project</p>
+
+									<li class="text-center"><a href="https://about.me/caseyphillips" style="color: #7F7F7F; text-decoration: underline;" target="_blank">About Page</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>	
+				</div> <!--End Individual row-->
+			  </div>
+			<!-- grey divider -->
+			<div class="row">
+					<div class="col-12 noPad">
+						<div class="grayBox"></div>
+					</div>
+				</div>
+			<a class="anchorpoint" id="RsSocial"></a>			
+			<div class="whiteBox row">
+				<div class="col-12 textpadding row noPad no-gutters">
+				  <h1 class="bigtext text-center redBox bigtextwhite col-12 noPad">Social Science</h1>
+				</div>	
+				<div class="row" style="padding-bottom: 25px; padding-top: 25px;">
+					<div class = "col-10 offset-1  noPad">
+						<p class="smallertext text-justify">
+							Analyzing datasets with the proposed software tools, such as twitter or OpenBR databases. PIs will share the developed outcomes and information collected from the project with researchers from other higher education including Southern University. Quality of life measures pre- and post-project implementations, including community-wide tools, will help tackle crime and traffic related challenges for a realfor all citizens in the region has real impact on quality of life and economic health, making the region more attractive for growth.
+						</p>
+					</div>
+				  </div>
+				<!-- Row -->
+				<div class="row col-12 no-gutters" style="padding-bottom: 25px;"> 
+					<div class="d-block col-md-10 offset-md-1 col-lg-6 offset-lg-0">
+						<div class="row" style="padding-bottom: 25px;">
+							<div class="col-3 no-gutters d-block offset-1 noPad">
+								<img src="images/people/guin2.jpg" class="col-12" alt="Cecile Guin" style=" box-shadow: 0px 1px 10px 1px rgba( 0, 0, 0, 0.25);">
+							</div>
+							<div class="col-6 d-block offset-1">
+							<h3 class="text-center facultyName">Cecile Guin</h3>
+							<ul class="list-unstyled facultyDesc" style="font-family: CarroisGothic; color:#808080;">
+							<p class="text-center" style="font-family: CarroisGothic; color:#808080;">Human Sciences & Education</p>
+							<li class="text-center">cguin@lsu.edu</li>
+							<li class="text-center">225-578-4838</li>
+							<li class="text-center"><a href="https://www.lsu.edu/srec/team/meet_team.php#Cecile%20Guin" style="color: #7F7F7F; text-decoration: underline;" target="_blank">Faculty Page</a></li>
+							</ul>
+						</div>
+						</div>
+					</div>
+					<div class="d-block col-md-10 offset-md-1 col-lg-6 offset-lg-0">
+					<div class="row" style="padding-bottom: 25px;">
+						<div class="col-3 no-gutters d-block offset-1 noPad">
+							<img src="images/people/tracey2.jpg" class="col-12" alt="Tracey Rizzuto" style=" box-shadow: 0px 1px 10px 1px rgba( 0, 0, 0, 0.25);">
+						</div>
+
+						<div class="col-6 d-block offset-1">
+							<h3 class="text-center facultyName">Tracey Rizzuto</h3>
+							<ul class="list-unstyled facultyDesc" style="font-family: CarroisGothic; color:#808080;">
+							<p class="text-center" style="font-family: CarroisGothic; color:#808080;">Human Sciences & Education</p>
+							<li class="text-center">trizzut@lsu.edu</li>
+							<li class="text-center">225-578-2453</li>
+							<li class="text-center"><a href="https://www.lsu.edu/chse/slhrd/people/faculty_and_staff/rizzuto.php" style="color: #7F7F7F; text-decoration: underline;" target="_blank">Faculty Page</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				</div> <!--End Individual row-->
+				<!-- Row -->
+				<div class="row col-12 no-gutters" style="padding-bottom: 25px;"> 
+						<div class="d-block col-md-10 offset-md-1 col-lg-6 offset-lg-0">
+							<div class="row" style="padding-bottom: 25px;">
+								<div class="col-3 no-gutters d-block offset-1 noPad">
+									<img src="images/people/judith2.jpg" class="col-12" alt="Judith Rhodes" style=" box-shadow: 0px 1px 10px 1px rgba( 0, 0, 0, 0.25);">
+								</div>
+
+								<div class="col-6 d-block offset-1">
+									<h3 class="text-center facultyName">Judith Rhodes</h3>
+									<ul class="list-unstyled facultyDesc" style="font-family: CarroisGothic; color:#808080;">
+									<p class="text-center" style="font-family: CarroisGothic; color:#808080;">Human Sciences & Education</p>
+									<li class="text-center">jrhode9@lsu.edu</li>
+									<li class="text-center">225-578-4948</li>
+									<li class="text-center"><a href="https://www.lsu.edu/srec/team/meet_team.php#Judith%20Rhodes" style="color: #7F7F7F; text-decoration: underline;" target="_blank">Faculty Page</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="d-block col-md-10 offset-md-1 col-lg-6 offset-lg-0">
+							<div class="row" style="padding-bottom: 25px;">
+								<div class="col-3 no-gutters d-block offset-1 noPad">
+									<img src="images/people/aimee2.jpg" class="col-12" alt="Aimee Moles" style=" box-shadow: 0px 1px 10px 1px rgba( 0, 0, 0, 0.25);">
+								</div>
+
+								<div class="col-6 d-block offset-1">
+									<h3 class="text-center facultyName">Aimee Moles</h3>
+									<ul class="list-unstyled facultyDesc" style="font-family: CarroisGothic; color:#808080;">
+									<p class="text-center" style="font-family: CarroisGothic; color:#808080;">Human Sciences & Education</p>
+									<li class="text-center">amoles@cct.lsu.edu</li>
+									<li class="text-center">225-578-4838</li>
+									<li class="text-center"><a href="https://www.lsu.edu/srec/team/meet_team.php#Aimee%20Moles" style="color: #7F7F7F; text-decoration: underline;" target="_blank">Faculty Page</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+				</div> <!--End Individual row-->
+				<!-- Row -->
+				<div class="row col-12 no-gutters" style="padding-bottom: 25px;"> 
+					<div class="d-block col-md-10 offset-md-1 col-lg-6 offset-lg-0">
+						<div class="row" style="padding-bottom: 25px;">
+							<div class="col-3 no-gutters d-block offset-1 noPad">
+								<img src="images/people/RobisonSamuel2.jpg" class="col-12" alt="Sam Robinson" style=" box-shadow: 0px 1px 10px 1px rgba( 0, 0, 0, 0.25);">
+							</div>
+
+							<div class="col-6 d-block offset-1">
+								<h3 class="text-center facultyName">Sam Robinson</h3>
+								<ul class="list-unstyled facultyDesc" style="font-family: CarroisGothic; color:#808080;">
+								<p class="text-center" style="font-family: CarroisGothic; color:#808080;">Human Sciences & Education</p>
+								<li class="text-center">srobis2@lsu.edu</li>
+								<li class="text-center">225-578-6293</li>
+								<li class="text-center"><a href="https://lsu.edu/srec/team/meet_team.php#Sam%20Robison" style="color: #7F7F7F; text-decoration: underline;" target="_blank">Faculty Page</a></li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+					<div class="d-block col-md-10 offset-md-1 col-lg-6 offset-lg-0">
+						<div class="row" style="padding-bottom: 25px;">
+							<div class="col-3 no-gutters d-block offset-1 noPad">
+								<img src="images/people/WinchesterElizabeth.jpg" class="col-12" alt="Elizabeth Winchester" style=" box-shadow: 0px 1px 10px 1px rgba( 0, 0, 0, 0.25);">
+							</div>
+
+							<div class="col-6 d-block offset-1">
+								<h3 class="text-center facultyName">Elizabeth Winchester</h3>
+								<ul class="list-unstyled facultyDesc" style="font-family: CarroisGothic; color:#808080;">
+								<p class="text-center" style="font-family: CarroisGothic; color:#808080;">Human Sciences & Education</p>
+								<li class="text-center">eatkins@lsu.edu</li>
+								<li class="text-center">225-578-3425</li>
+								<li class="text-center"><a href="https://www.lsu.edu/srec/team/meet_team.php#Elizabeth%20Winchester" style="color: #7F7F7F; text-decoration: underline;" target="_blank">Faculty Page</a></li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+				</div> <!--End Individual row-->
+			  </div>
+			<!-- grey divider -->
+			<div class="row">
+					<div class="col-12 noPad">
+						<div class="grayBox"></div>
+					</div>
+			  </div>
+			<a class="anchorpoint" id="RsSub"></a>
+			<div class="row whiteBox" style="padding-bottom: 25px;">
+				  <div class="col-12 noPad">
+					<div class="row">
+						<div class="col-12 no-gutters noPad">
+						   <h1 class="bigtext text-center redBox bigtextwhite" id="AboutContact">Data Submission</h1>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12">
+							<div class="col-10 offset-1" style=" padding-left: 0; padding-right: 0;">
+				<div class="row" style=" padding-top: 25px; padding-bottom: 25px;">
+					<div class = "col-12">
+						<p class="smallertext text-justify text-lg-center">
+						To login to our data submission section, please visit this link to our Plenario server (must be logged into LSU's VPN).
+						</p>
+					</div>							 
+				</div>
+				<div class="row">
+					<a class="col-md-4 offset-md-4 col-lg-2 offset-lg-5 col-8 offset-2 pagebutton" href="http://icar.lsu.edu:5000/" role="button">Plenario</a>	
+				</div>	
+			</div>
+						</div>
+					</div>					
+				  </div>	
+			  </div>
+			<!-- grey divider -->
+			<div class="row">
+					<div class="col-12 noPad">
+						<div class="grayBox"></div>
+					</div>
+			  </div>
+			<!--Footer-->
+			<div class="row" style="padding-top: 10px; background-color: #FFFFFF;">
+			  <div class="col-12 row">
+                	<div class="col-4 offset-2 col-md-2 offset-md-4 d-lg-block">	
+                        <img src="images/logos/LSU_logo.png" class="img-fluid" alt="The Louisiana State University Logo.">
+                    </div> 
+                    <div class="col-4 col-md-2 d-lg-block">	
+                        <img src="images/logos/LSU_CCT_logo.png" class="img-fluid" alt="The LSU Center for Computation & Technology.">
+                    </div>
+              </div> 
+					
+				<div class="col-10 offset-1 col-lg-6 offset-lg-3" style="padding-top: 5px;">
+                	<div class="col-12 row justify-content-center">
+						
+						<a class="d-flex" href="https://www.facebook.com/LSUCCT/">
+							<img src="images/logos/flogo-Hex-RGB-MedGrey-72.png" class="img-fluid" style="height: 30px; padding: 3px;" alt="The Facebook Logo linking to the LSU CCT Facebook." target="_blank">
+						</a>
+						
+						<a class="d-flex" href="https://twitter.com/lsucct">
+							<img src="images/logos/Twitter_Social_Icon_Rounded_Square_fbGrey.png" class="img-fluid" style="height: 30px; padding: 3px;" alt="The Twitter Logo linking to the LSU CCT Twitter." target="_blank">
+						</a>
+						
+						<a class="smallertext textpadding" style="font-size: 1rem; padding-top: 2px; color:#898F9C;" href="https://twitter.com/hashtag/smartcityBR"  target="_blank">#smartcityBR</a>
+						
+					</div>
+	  			</div>
+				<div class="row col-12">
+						<a class="smallertext align-self-center col-md-6 offset-md-3 text-center" href="https://www.lsu.edu/accessibility/" style="padding-top: 7px; padding-bottom: 10px; font-size: 0.7rem;" target="_blank">Accessibility Statement</a>
+				</div>
+			
+			</div>
+			<!--End Footer-->
+		</div>
+
+		
+		
+		<!-- scripts -->
+		<!-- popper.js -->
+	<script src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script>
+		<!-- jquery -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<!-- bootstrap -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+		
+
+		<!--Active link script-->
+		<script src="https://code.jquery.com/jquery-1.8.3.min.js"></script>
+		<script>
+		$(function(){
+		  $('a').each(function() {
+			if ($(this).prop('href') == window.location.href) {
+			  $(this).addClass('current');
+			}
+		  });
+		});
+		</script>
+		
+	</body>
+</html>

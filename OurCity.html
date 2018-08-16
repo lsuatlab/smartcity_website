@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Smart City - Our City</title>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<!--CSS stuff here -->
+
+		<link rel="stylesheet" href="tools/styleSheets/bootstrap/bootstrap.css">
+		<link rel="stylesheet" href="tools/styleSheets/customCss.css">
+  	<!-- scripts -->
+
+	</head>
+	<body>
+<div class="container-fluid noPad">
+<!--			Navbar-->
+			<div class="row fixed-top" style="background-color: #EAEAEA;">
+			  <div class="col-12 noPad">
+				  <nav class="navbar navbar-expand-md navbar-light noPad" style="padding-top: 0; padding-bottom: 0; height: 100%;">
+				  	<!-- big logo -->
+				    <a class="navbar-brand d-none d-sm-block col-3 noPad" href="index.html">
+				      <img src="images/logos/logoWithText.png" class="navbar-brand mr-auto" height="65" style="padding-left: 10px;" href="index.html" alt="Red minimalist cityscape with text Smart Safe Connected Baton Rouge following. Serves as logo of site">
+				    </a>
+				    <!-- mobile logo -->
+				    <a class="navbar-brand d-block d-sm-none col-3 noPad" href="index.html">
+				      <img src="images/logos/logoWithText.png" class="navbar-brand mr-auto" height="71" href="index.html" alt="Red minimalist cityscape with text Smart Safe Connected Baton Rouge following. Serves as logo of site">
+				    </a>
+					<!--Mobile navbar burger button-->
+					<button class="navbar-toggler burger-cust col-2" type="button" data-toggle="collapse" data-target="#NavBurger" aria-controls="NavBurger" aria-expanded="false" aria-label="Toggle navigation bar" style="height: 100%;">
+         				<span class="navbar-toggler-icon"></span>
+         			</button>
+					  
+				    <div class="d-none d-lg-block collapse navbar-collapse col-9 row" id="navbarNavAltMarkup" style="height: 100%; padding:0;">
+				      <div class=" navbar-nav ml-auto col-8" style="height: 100%;">
+				        <div class="nav-item dropdown col-4 noPad row">
+				          <a class="Headerbutton-cust text-center col-12 navLink" href="index.html#AboutBanner" id="dropdownMenuLink" aria-haspopup="true" aria-expanded="false" style="height: 100%;">
+				            About Us
+				            <!-- add this line in for the active element for text-only broswers -->
+				            <span class="sr-only">(current)</span>
+				          </a>
+				          <div class="dropdown-menu dropdown-menu-right dropdown-nopadborder py-0 col-12" aria-labelledby="dropdownMenuLink">
+				            <a class="dropdown-item_cust navLink" href="index.html#AboutEvents">
+								Events
+							  <!-- add this line in for the active element for text-only broswers -->
+				            <span class="sr-only">(current)</span></a>
+				            <a class="dropdown-item_cust navLink" href="index.html#AboutContact">
+								Contact Us
+							 	<!-- add this line in for the active element for text-only broswers -->
+				            	<span class="sr-only">(current)</span>
+							</a>
+				          </div>
+				        </div>
+
+				        <div class="nav-item dropdown col-4 noPad">
+				          <a class="Headerbutton-cust text-center navLink" href="OurCity.html#CityBanner" aria-haspopup="true" aria-expanded="false" style="height: 100%;">
+				            Our City
+							<!-- add this line in for the active element for text-only broswers -->
+				            <span class="sr-only">(current)</span>
+				          </a>
+				          <div class="dropdown-menu dropdown-menu-right dropdown-nopadborder py-0 col-12" aria-labelledby="dropdownMenuLink">
+				            <a class="dropdown-item_cust navLink" href="OurCity.html#CityMap">
+								Crime Map Visualization
+								<!-- add this line in for the active element for text-only broswers -->
+				            	<span class="sr-only">(current)</span>
+							</a>
+				            <a class="dropdown-item_cust navLink" href="OurCity.html#CityTraffic">
+								Traffic Visualization
+								<!-- add this line in for the active element for text-only broswers -->
+				            	<span class="sr-only">(current)</span>
+							</a>
+							<a class="dropdown-item_cust navLink" href="OurCity.html#CityPoster">
+								Community Visualization
+								<!-- add this line in for the active element for text-only broswers -->
+				       		    <span class="sr-only">(current)</span>
+							</a>
+				          </div>
+				        </div>
+
+				        <div class="nav-item dropdown col-4 noPad">
+				          <a class="Headerbutton-cust text-center navLink" href="Research.html#RsBanner" aria-haspopup="true" aria-expanded="false" style="height: 100%;">
+				            Research
+				            <!-- add this line in for the active element for text-only broswers -->
+				            <span class="sr-only">(current)</span>
+				          </a>
+				          <div class="dropdown-menu dropdown-menu-right dropdown-nopadborder py-0 col-12" aria-labelledby="dropdownMenuLink">
+				            <a class="dropdown-item_cust navLink" href="Research.html#RsData">
+								Big Data + Deep Learning
+								<!-- add this line in for the active element for text-only broswers -->
+					            <span class="sr-only">(current)</span>
+							</a>
+				            <a class="dropdown-item_cust navLink" href="Research.html#RsComm">
+								Community Engagement
+								<!-- add this line in for the active element for text-only broswers -->
+					            <span class="sr-only">(current)</span>
+							</a>
+				            <a class="dropdown-item_cust navLink" href="Research.html#RsSocial">
+								Social Science
+								<!-- add this line in for the active element for text-only broswers -->
+					            <span class="sr-only">(current)</span>
+							</a>
+				            <a class="dropdown-item_cust navLink" href="Research.html#RsSub">
+								Data Submission
+								<!-- add this line in for the active element for text-only broswers -->
+				            	<span class="sr-only">(current)</span>							
+							</a>
+				          </div>
+				        </div>
+				      </div>
+				    </div>
+				  </nav>
+					
+				  
+<!--					Holder for burger dropdown-->
+				  
+				  
+				<div class="row col-8 offset-4 noPad no-gutters collapse dropdown-custom" style="background-color: grey;" id="NavBurger" aria-expanded="false"  aria-labelledby="">
+  				<!-- Link Section -->
+                  
+                  <a class="nav-link example text-center col-12 dropdownButton navLink" href="index.html#AboutBanner">
+                    About Us
+                    <!-- add this line in for the active element for text-only broswers -->
+                    <span class="sr-only">(current)</span>
+                  </a>
+                  
+                  <a class="nav-link example text-center col-12 dropdownButtonsub navLink" href="index.html#AboutEvents">
+                    Events
+                    <!-- add this line in for the active element for text-only broswers -->
+                    <span class="sr-only">(current)</span>
+                  </a>
+                  
+                  <a class="nav-link example text-center col-12 dropdownButtonsub navLink" href="index.html#AboutContact">
+                    Contact Us
+                    <!-- add this line in for the active element for text-only broswers -->
+                    <span class="sr-only">(current)</span>
+                  </a>
+  <!--			Our city section-->
+                  <a class="nav-link example text-center col-12 dropdownButton navLink" href="OurCity.html#CityBanner">
+                  Our City
+                  <!-- add this line in for the active element for text-only broswers -->
+                  <span class="sr-only">(current)</span>
+                  </a>
+                  
+                  <a class="nav-link example text-center col-12 dropdownButtonsub navLink" href="OurCity.html#CityMap">
+                    Crime Map Visualization
+                    <!-- add this line in for the active element for text-only broswers -->
+                    <span class="sr-only">(current)</span>
+                  </a>
+                  
+                  <a class="nav-link example text-center col-12 dropdownButtonsub navLink" href="OurCity.html#CityTraffic">
+                    Traffic Visualization
+                    <!-- add this line in for the active element for text-only broswers -->
+                    <span class="sr-only">(current)</span>
+                  </a>
+                  <a class="nav-link example text-center col-12 dropdownButtonsub navLink" href="OurCity.html#CityPoster">
+                    Community Visualization
+                    <!-- add this line in for the active element for text-only broswers -->
+                    <span class="sr-only">(current)</span>
+                  </a>
+  <!--			Research section-->
+                  <a class="nav-link example text-center col-12 dropdownButton navLink" href="Research.html#RsBanner">
+                  Research
+                  <!-- add this line in for the active element for text-only broswers -->
+                  <span class="sr-only">(current)</span>
+                  </a>
+                  
+                  <a class="nav-link example text-center col-12 dropdownButtonsub navLink" href="Research.html#RsData">
+                    Big Data + Deep Learning
+                    <!-- add this line in for the active element for text-only broswers -->
+                    <span class="sr-only">(current)</span>
+                  </a>
+                  
+                  <a class="nav-link example text-center col-12 dropdownButtonsub navLink" href="Research.html#RsComm">
+                    Community Engagement
+                    <!-- add this line in for the active element for text-only broswers -->
+                    <span class="sr-only">(current)</span>
+                  </a>
+                  <a class="nav-link example text-center col-12 dropdownButtonsub navLink" href="Research.html#RsSocial">
+                    Social Science
+                    <!-- add this line in for the active element for text-only broswers -->
+                    <span class="sr-only">(current)</span>
+                  </a>
+                  
+                  <a class="nav-link example text-center col-12 dropdownButtonsub navLink" href="Research.html#RsSub">
+                    Data Submission
+                    <!-- add this line in for the active element for text-only broswers -->
+                    <span class="sr-only">(current)</span>
+                  </a>
+                </div>
+<!--					here-->
+			  </div>
+			</div>
+<!--		End Navbar-->
+
+			<!-- Banner -->
+			<div class="row" id="CityBanner">
+				<div class="col-12 noPad ourcitybannerImg" title="The cityscape in Baton Rouge.">
+				</div>
+			</div>
+
+			<!-- BannerDescription -->
+			<div class="row whiteBox">
+				<div class="col-10 offset-1 noPad">
+					<div class="row">
+						<div class="col-12">
+						  <h1 class="bigtext text-center" style="padding-top: 1%;" name="About">Our City</h1>
+						</div>
+					</div>
+
+					<div class="row" style="padding-top: 25px; padding-bottom: 25px;">
+						<div class = "col-12 noPad ">
+		        			<p class="smallertext text-justify">
+		        		The goal of this SS&C planning proposal is to build a partnership between various Baton Rouge community stakeholders and a multidisciplinary team of academic researchers in order to develop research concepts that will promote and employ SS&C technologies to tackle the major factors affecting the economic progress of the region, by considering economic and social issues in a holistic manner.
+		        	</p>
+		        		</div>
+		      		</div>
+				</div>
+			</div>
+			
+			<!-- grey divider -->
+			<div class="row">
+				<div class="col-12 noPad">
+					<div class="grayBox"></div>
+				</div>
+			</div>
+			<!-- Visualization -->
+			<a class="anchorpoint" id="CityMap"></a>
+			<div class="row whiteBox">
+				<div class="col-12 d-lg-block noPad" >
+					<div class="row col-12 noPad">
+						<div class="col-12 noPad">
+							<div class= "redBox" >
+								<h1 class="bigtext bigtextwhite text-center noMargin">Crime Map Visualizations</h1>
+							</div>
+						</div>
+					</div>
+					<div class="row">	
+						<div class="col-12 noPad crimebannerImg" title="A map visualization of Baton Rouge, showing safety areas using OpenBR data."  style="box-shadow: 0px 1px 10px 1px rgba( 0, 0, 0, 0.25);">
+						</div> 
+				  	</div>
+					<div class="row">
+						<div class="col-10 offset-1" style="padding-top: 25px; padding-bottom: 25px; padding-left: 0; padding-right: 0;" >
+							<p class="smallertext">
+		        		This visualization was created by Jacob Shelton, an undergraduate REU student from Washington State University. Created from three years of crime data hosted on Open Data BR, this visualization aggregates the data into a crime index based on whether or not the crime was committed and the type of crime attempted. Next, Baton Rouge is divided up based on police district location data from EBRGIS Open Data and the crime index is used to color the police district. This visualization is not meant to convene any conclusive findings as the data from Open Data BR is meant only to give a snapshot of criminal activity of any given district. Instead this visualization serves as an example for one visualization style offered by the Smart City team.
+		        			</p>
+						</div>
+					</div>	
+					<div class="row col-12">
+                        <div class="row col-12 col-lg-4" style="padding-bottom: 25px;">
+							<a class=" pagebutton col-8 offset-2 col-md-6 offset-md-3" href="https://lsuatlab.github.io/smartcity_codeplay/Safety%20Map/index.html" role="button" style="" target="_blank">Safety Map
+							</a>
+						</div>
+						
+                        <div class="row col-12 col-lg-4" style="padding-bottom: 25px;">
+							<a class="pagebutton col-8 offset-2 col-md-6 offset-md-3" href="https://lsuatlab.github.io/smartcity_codeplay/Bar%20graph%20on%20map%20-%20gitpages%20edition/index.html" role="button" style="" target="_blank">3d Map
+							</a>
+						</div>
+						
+                        <div class="row col-12 col-lg-4" style="padding-bottom: 25px;">
+							<a class="pagebutton col-8 offset-2 col-md-6 offset-md-3" href="https://lsuatlab.github.io/smartcity_codeplay/Spheres%20-%20hover/index.html" role="button">Sphere
+							</a>
+						</div>
+						
+					</div>
+				</div>
+
+			</div>
+			
+			<!-- grey divider -->
+			<div class="row">
+				<div class="col-12 noPad">
+					<div class="grayBox"></div>
+				</div>
+			</div>
+
+			<a class="anchorpoint" id="CityTraffic"></a>
+			<div class="row whiteBox" style="padding-bottom: 25px;">
+				<div class="col-12 d-lg-block noPad" >
+					<div class="row">
+						<div class="col-12 noPad">
+							<div class= "redBox" >
+								<h1 class="bigtext bigtextwhite text-center noMargin">Traffic Visualization</h1>
+							</div>
+						</div>
+					</div>
+					<div class="row">	
+						<div class="col-12 noPad trafficbannerImg" title="A screenshot of traffic with deep-learning AI identifying different types of vehicles." style=" box-shadow: 0px 1px 10px 1px rgba( 0, 0, 0, 0.25);"></div>
+					</div>
+					<div class="row">
+						<div class="col-10 offset-1" style="padding-top: 25px; padding-bottom: 25px; padding-left: 0; padding-right: 0;" >
+						  <p class="smallertext"> This project aims to develop a real time video streaming monitoring service, and the developmental prototype built with Deep Learning techniques is shown using the data from a Baton Rouge traffic camera from DOTD. </p>
+						</div>
+					</div>
+					<div class="row">
+						<a class="col-4 offset-4 col-md-2 offset-md-5 pagebutton" href="https://drive.google.com/file/d/1pol69gDbpbfncaAm9FdyIFRTndqtv7vI/view?usp=sharing" role="button" target="_blank">View</a>	
+					</div>
+				</div>
+		  	</div>
+	
+			<!-- grey divider -->
+			<div class="row">
+				<div class="col-12 noPad">
+					<div class="grayBox"></div>
+				</div>
+			</div>
+
+			<a class="anchorpoint" id="CityPoster"></a>
+			<div class="row whiteBox" style="padding-bottom: 25px;">
+				<div class="col-12 d-lg-block noPad" >
+					<div class="row">
+						<div class="col-12 noPad">
+							<div class= "redBox" >
+							  <h1 class="bigtext bigtextwhite text-center noMargin">Community Visualization</h1>
+							</div>
+						</div>
+					</div>
+					<div class="row">	
+						<div class="col-12 noPad posterbannerImg" title="A series of maps showing community stress. economic health, and environmental health."></div> 
+					</div>
+					<div class="row">
+						<div class="col-10 offset-1" style="padding-top: 25px; padding-bottom: 25px; padding-left: 0; padding-right: 0;" >
+							<p class="smallertext">East Baton Rouge, Livingston, and Ascension parishes
+								are continuing to grow as people migrate from the
+								coast but have increasingly been impacted by weatherrelated
+								events. After natural hazards affect communities,
+								it is up to individuals, policymakers, and developers
+								to make adaptive decisions for sustainable futures. In
+								order to build adaptive capacity, there needs to be an
+								understanding of what it means to build back “better” than
+								before. The objective of this research is to develop an
+								index to measure the variability of and capacity gaps in
+								community well-being. 
+		        			</p>
+						</div>
+					</div>
+					<div class="row">
+						<a class="col-4 offset-4 col-md-2 offset-md-5 pagebutton" href="https://drive.google.com/file/d/1dSNIf2gT0iYcyrCz7uRHYa2pf67GyEqk/view?ts=5b60a947" role="button" target="_blank">View</a>	
+					</div>
+				</div>
+
+		  	</div>
+			
+			<!-- grey divider -->
+			<div class="row">
+				<div class="col-12 noPad">
+					<div class="grayBox"></div>
+				</div>
+			</div>
+
+			<!--Footer-->
+			<div class="row" style="padding-top: 10px; background-color: #FFFFFF;">
+			  <div class="col-12 row">
+                	<div class="col-4 offset-2 col-md-2 offset-md-4 d-lg-block">	
+                        <img src="images/logos/LSU_logo.png" class="img-fluid" alt="The Louisiana State University Logo.">
+                    </div> 
+                    <div class="col-4 col-md-2 d-lg-block">	
+                        <img src="images/logos/LSU_CCT_logo.png" class="img-fluid" alt="The LSU Center for Computation & Technology.">
+                    </div>
+              </div> 
+					
+				<div class="col-10 offset-1 col-lg-6 offset-lg-3" style="padding-top: 5px;">
+                	<div class="col-12 row justify-content-center">
+						
+						<a class="d-flex" href="https://www.facebook.com/LSUCCT/">
+							<img src="images/logos/flogo-Hex-RGB-MedGrey-72.png" class="img-fluid" style="height: 30px; padding: 3px;" alt="The Facebook Logo linking to the LSU CCT Facebook." target="_blank">
+						</a>
+						
+						<a class="d-flex" href="https://twitter.com/lsucct">
+							<img src="images/logos/Twitter_Social_Icon_Rounded_Square_fbGrey.png" class="img-fluid" style="height: 30px; padding: 3px;" alt="The Twitter Logo linking to the LSU CCT Twitter." target="_blank">
+						</a>
+						
+						<a class="smallertext textpadding" style="font-size: 1rem; padding-top: 2px; color:#898F9C;" href="https://twitter.com/hashtag/smartcityBR"  target="_blank">#smartcityBR</a>
+						
+					</div>
+	  			</div>
+				<div class="row col-12">
+						<a class="smallertext align-self-center col-md-6 offset-md-3 text-center" href="https://www.lsu.edu/accessibility/" style="padding-top: 7px; padding-bottom: 10px; font-size: 0.7rem;" target="_blank">Accessibility Statement</a>
+				</div>
+			
+			</div>
+			<!--End Footer-->
+		</div>
+
+		
+		
+		<!-- scripts -->
+		<!-- popper.js -->
+	<script src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script>
+		<!-- jquery -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<!-- bootstrap -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+		
+
+		<!--Active link script-->
+		<script src="https://code.jquery.com/jquery-1.8.3.min.js"></script>
+		<script>
+		$(function(){
+		  $('a').each(function() {
+			if ($(this).prop('href') == window.location.href) {
+			  $(this).addClass('current');
+			}
+		  });
+		});
+		</script>
+		
+	</body>
+</html>
